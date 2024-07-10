@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cover">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <h3>GET IN TOUCH</h3>
+            <input type="hidden" name="access_key" value="2bd20adc-7f56-4687-bdad-c334a79e4944">
+            <input type="text" name="name" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="E-mail ID" required>
+            <input type="text" id="phone" name="phone" placeholder="Phone Number" required>
+            <textarea id="message" name ="message" rows="4" placeholder="How can we help"></textarea>
+            <button type="submit">SEND</button>
+        </form>
+    </div>
+</div>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendemail(){
+            Email.send({
+                Host : "smtp.elasticemail.com",
+                Username : "pratyaym1808@gmail.com",
+                Password : "PMISONMYWAY",
+                To : 'pratyaym1808@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "New Contact Form Enquiry",
+                Body : "And this is the body"
+            }).then(
+            message => alert(message)
+            );
+        }
+    </script> -->
+</body>
+</html>
